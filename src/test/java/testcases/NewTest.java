@@ -62,8 +62,8 @@ public class NewTest {
 
 			
 		} else {
-			System.out.println("Side dock not found");
 
+			Assert.fail("Sidedock not found");
 		}
 
 	}
